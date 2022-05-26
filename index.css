@@ -1,0 +1,277 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_bar{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(1, 1, 61);
+    display: flex;
+}
+
+/* logo of the navbar */
+.logo{
+    width: 30%;
+    height: 130px;
+    /* background-color: green; */
+    display: flex;
+
+
+}
+.logo img{
+    width: 200px;
+    height: 130px;
+}
+.logo h2{
+        margin-top: 40px;
+        margin-left: -10px;
+        font-size: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+}
+
+/* nav using css start */
+.nav{
+    width: 70%;
+    height: 130px;
+    /* background-color: aqua; */
+}
+/* search bar design */
+
+#search{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    /* background-color: blue; */
+}
+
+#search a i{
+    float: right;
+    padding: 4px;
+    margin-top: 5px;
+    color: white;
+    margin-right: 10px;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+#search input{
+    float: right;
+    padding:4px;
+    margin-top: 5px;
+    border: none;
+    background-color: none;
+    width: 200px;
+    border-radius:20px ;
+}
+/* nav-list design */
+.nav-list{
+    width: 100%;
+    height: 90px;
+    /* background-color: rgb(190, 45, 45); */
+}
+.nav-list ul{
+    width: 95%;
+    height: 50px;
+    background-color: black;
+    margin-top: 20px;
+}
+.nav-list ul li{
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    
+}
+.nav-list ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 10px; */
+}
+.nav-list ul li a:hover{
+    color: black;
+    background-color: #ffffff;
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: none;
+
+}
+
+
+.active{
+  transition: 1s;
+}
+.w-100 {
+    width: 100%!important;
+    height: 900px;
+}
+.battan_bar{
+    width: 97%;
+    height: 200px;
+    position: absolute;
+    top: 630px;
+    left: 40px;
+
+}
+.batton{
+    width: 180px;
+    height: 180px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(1, 1, 61);
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 20px;
+     
+  }
+  .batton:hover{
+    width: 180px;
+    height: 180px;
+    border: 2px solid blue;
+    background-color: #ffffff;
+    color: rgb(2, 2, 101);
+    margin-left: 100px;
+    text-align: center;
+    font-size: 20px;
+  }
+  /* css desgin for theis Emergency_call */
+  .Emergency_call{
+      width: 100%;
+      height: 200px;
+      background-color: hsl(240, 86%, 34%);
+      border-bottom: 2px solid red;
+      display: flex;   
+  }
+.emergency{
+  width: 60%;
+  height: 200px;
+}
+.emergency h2 a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 40px;
+  
+}
+.emergency h1 a{
+    text-decoration: none;
+    margin-left: 600px;
+    color: #ffffff;
+    font-size: 80px;
+}
+.call{
+    width: 20%;
+    height: auto;
+}
+.call h1 a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150px;
+    color: white;
+}
+  /* foorter-upper-bar desgin */
+  .foorter-upper-bar{
+      width: 100%;
+      height: 50px;
+      background-color: hsl(240, 86%, 34%);
+      
+  }
+  .footer-text{
+      width: 60%;
+      height: 10px;
+      margin-left: 300px;
+  }
+  .foorter-upper-bar a{
+    margin-left: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+  }
+  .foorter-upper-bar a:hover{
+    margin-left: 40px;
+    color: white;
+    font-size: 15px;
+  }
+/* css for this footer */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(2, 2, 77) ;
+}
+.headings{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    color: rgb(12, 12, 160);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#help{
+    width: 60%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top:30px ;
+}
+#procment{
+    width: 30%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+/* css desgin the helplines numbers */
+.helps_numbers{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.help_nbr1{
+    width: 30%;
+    height: 400px;
+}
+.complain{
+    margin-left: 70px;
+    width: auto;
+    height: 10px;
+}
+.complain_nbr{
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+.fa-solid{
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    border-radius: 50px;
+}
+.complain-text{
+    color: #ffffff;
+    top: 10px;
+}
+
+.help_nbr2{
+    width: 30%;
+    height: 400px;
+    
+}
+.police_proc{
+    width:400px;
+    height: 100px;
+    margin-left: 60px;
+}
+.police_proc ul li a{
+    color: white;
+    font-size: 20px;
+}
+.procnment_police h2 a{
+    margin-left: 80px;
+    top: 10px;
+
+    text-decoration: none;
+}
